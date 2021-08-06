@@ -1,5 +1,7 @@
 > :warning: :key: **Adds TLS/SSL support for the original [lua-resty-upstream-healthcheck](https://github.com/openresty/lua-resty-upstream-healthcheck)**
-> **We just copied the proposed [PR](https://github.com/openresty/lua-resty-upstream-healthcheck/pull/36) by @ElvinEfendi**
+* We just copied the proposed [PR](https://github.com/openresty/lua-resty-upstream-healthcheck/pull/36) by @ElvinEfendi
+* Make it available as a rock `luarocks install lua-resty-upstream-healthcheck-tls`
+* Change the `type` to `"https"`
 
 Name
 ====
