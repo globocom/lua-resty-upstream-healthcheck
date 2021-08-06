@@ -1,8 +1,8 @@
 package = "lua-resty-upstream-healthcheck-tls"
-version = "1.0.0-0"
+version = "1.0.1-0"
 source = {
   url = "git://github.com/globocom/lua-resty-upstream-healthcheck",
-  tag = "1.0.0"
+  tag = "1.0.1"
 }
 description = {
   summary  = "Health-checker for Nginx upstream servers with TLS/SSL https support.",
@@ -15,6 +15,6 @@ description = {
 build = {
   type    = "builtin",
   modules = {
-    ["resty.upstream.healthcheck_tls"] = "lib/resty/healthcheck.lua"
+    ["resty.upstream.healthcheck_tls"] = "lib/resty/upstream/healthcheck.lua"
   }
 }
