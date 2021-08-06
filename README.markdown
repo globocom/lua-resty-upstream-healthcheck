@@ -1,4 +1,5 @@
 > :warning: :key: **Adds TLS/SSL support for the original [lua-resty-upstream-healthcheck](https://github.com/openresty/lua-resty-upstream-healthcheck)**
+> **We just copied the proposed [PR](https://github.com/openresty/lua-resty-upstream-healthcheck/pull/36) by @ElvinEfendi**
 
 Name
 ====
